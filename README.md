@@ -1,87 +1,73 @@
-# Build a Data Graph Explorer
+📊 Explorador de Gráficos de Datos
+Data Graph Explorer es una herramienta interactiva desarrollada en Python que permite visualizar y explorar conjuntos de datos de forma sencilla mediante gráficos dinámicos. Ideal para análisis exploratorio rápido y visual.
 
-## Author: Emanuel Gonzalez
+🚀 Características principales
+📁 Carga de datos desde:
 
-### Description
+Archivos locales (.csv)
 
-This repository contains the code for the **Data Graph Explorer**, a Python-based tool designed to help users explore data through interactive graphs and visualizations. The tool allows users to upload a CSV file from different sources, such as local files, URLs, or predefined URLs in the code. The user can then visualize and analyze the data through scatter plots, line graphs, and other interactive visualizations.
+URLs personalizadas
 
-### Features
+URLs predefinidas integradas en el código
 
-1. **Data Loading**: 
-   - Upload CSV file from local storage.
-   - Fetch CSV from a URL provided by the user.
-   - Use a predefined URL in the code to load a CSV.
-   
-2. **Data Visualization**:
-   - Scatter Plot and Line Graph generation.
-   - Dynamic selection of data columns for X and Y axes.
-   - Interactive input for column selection and graph type.
+📊 Visualización de datos:
 
-3. **Data Exploration**:
-   - Print headings and first two rows of the loaded dataset.
-   - Convert selected columns to NumPy arrays for further manipulation.
-   - Ability to customize the graph type (scatter plot or line graph).
+Gráficos de dispersión
 
-4. **Interactivity**:
-   - Interactive widgets to help the user select columns and graph types.
-   - Customizable features for data exploration, visualization, and graph manipulation.
+Gráficos de líneas
 
-### Requirements
+🔍 Exploración básica:
 
-- Python 3.x
-- Pandas
-- NumPy
-- Matplotlib
-- Requests
-- Ipywidgets (for interactivity in Google Colab)
+Visualización de encabezados
 
-### Installation
+Primeras filas del dataset
 
-To install the necessary libraries, run the following command:
+🎛️ Interactividad:
 
-```bash
+Selección de columnas para los ejes X e Y
+
+Elección del tipo de gráfico
+
+Widgets integrados para facilitar la navegación
+
+🧰 Requisitos
+Asegúrate de tener instalado:
+
+Python 3.x
+
+Bibliotecas necesarias:
+
+pandas
+
+numpy
+
+matplotlib
+
+requests
+
+ipywidgets
+
+Puedes instalar las dependencias con:
+
+bash
 pip install pandas numpy matplotlib requests ipywidgets
-Usage
-Run the Python Script:
+⚙️ Instalación
+Clona el repositorio:
 
-After cloning this repository, you can run the script in a Python environment (such as Google Colab or locally).
+bash
+git clone https://github.com/Emanuelgm777/Build-a-Data-Graph-Explorer.git
+Accede al directorio del proyecto:
 
-Follow the interactive prompts to load a CSV, select columns for visualization, and choose the graph type.
+bash
+cd Build-a-Data-Graph-Explorer
+Ejecuta el script principal en un entorno Jupyter Notebook o compatible con widgets.
 
-Google Colab Usage:
+🧪 Ejemplo de uso
+python
+from data_graph_explorer import launch_explorer
 
-If running in Google Colab, simply upload your CSV file or provide a URL to load the data.
+launch_explorer()
+Esto abrirá una interfaz interactiva donde podrás cargar tus datos y comenzar a explorarlos visualmente.
 
-Use the provided interactive widgets to explore and visualize the data dynamically.
-
-Example Usage
-Load Data: Select how to load the CSV data:
-
-Upload a file from your local system.
-
-Input a URL to load a CSV file from the web.
-
-Use a predefined URL hardcoded in the code.
-
-Data Exploration:
-
-After the data is loaded, the first two rows and the column headers will be printed.
-
-You can choose any columns to visualize in a scatter plot or line graph.
-
-Visualization:
-
-Choose the graph type (scatter plot or line graph).
-
-Customize the X and Y axes by selecting columns from the dataset.
-
-Example Output
-A scatter plot or line graph will be displayed, showing the selected data from the CSV file.
-
-The graph will help visualize trends, patterns, and outliers in the dataset.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Author: Emanuel Gonzalez
+📄 Licencia
+Este proyecto está bajo la licencia MIT. Puedes usarlo, modificarlo y distribuirlo libremente.
