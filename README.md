@@ -29,10 +29,6 @@ FileReader API: Para cargar y leer archivos CSV de manera dinámica en el navega
 
 Cómo usar el proyecto
 
-Clonar el repositorio
-Si deseas clonar este proyecto, usa el siguiente comando:
-
-git clone https://github.com/emanuelgm1998/build-a-data-graph-explorer.git  
 
 
 Abrir el archivo HTML en tu navegador
