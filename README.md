@@ -1,73 +1,72 @@
-📊 Explorador de Gráficos de Datos
-Data Graph Explorer es una herramienta interactiva desarrollada en Python que permite visualizar y explorar conjuntos de datos de forma sencilla mediante gráficos dinámicos. Ideal para análisis exploratorio rápido y visual.
+Build-a-Data-Graph-Explorer
+Descripción
 
-🚀 Características principales
-📁 Carga de datos desde:
+Este proyecto tiene como objetivo crear una herramienta interactiva que permite explorar y visualizar datos en forma de gráficos. La calculadora toma un archivo CSV como entrada y permite al usuario explorar los datos a través de gráficos de barras, líneas y dispersión. La aplicación está desarrollada en JavaScript con Pandas para el procesamiento de datos, y Chart.js o D3.js para la visualización de los gráficos.
 
-Archivos locales (.csv)
+Características
 
-URLs personalizadas
+Subida de archivos CSV: Los usuarios pueden cargar archivos CSV desde su computadora o a través de una URL.
 
-URLs predefinidas integradas en el código
+Visualización de Datos: La herramienta genera gráficos de diferentes tipos (barras, líneas, dispersión) para visualizar los datos contenidos en el archivo CSV.
 
-📊 Visualización de datos:
+Interactividad: Los gráficos permiten interacción, como desplazamiento y zoom, para explorar los datos más a fondo.
 
-Gráficos de dispersión
+Análisis básico: Además de visualizar los datos, la herramienta permite realizar cálculos como la media, desviación estándar y otros análisis estadísticos básicos en los datos cargados.
 
-Gráficos de líneas
+Tecnologías utilizadas
 
-🔍 Exploración básica:
+HTML: Para la estructura de la página web y la disposición de los formularios interactivos.
 
-Visualización de encabezados
+CSS: Para el diseño visual y la estilización de la interfaz de usuario.
 
-Primeras filas del dataset
+JavaScript: Para la lógica de procesamiento de datos y generación de gráficos interactivos.
 
-🎛️ Interactividad:
+Chart.js o D3.js: Para la creación de los gráficos dinámicos.
 
-Selección de columnas para los ejes X e Y
+Pandas (opcional para uso en Python): Para el análisis de los datos (si deseas integrar procesamiento avanzado de datos).
 
-Elección del tipo de gráfico
+FileReader API: Para cargar archivos CSV localmente.
 
-Widgets integrados para facilitar la navegación
+Cómo usar el proyecto
 
-🧰 Requisitos
-Asegúrate de tener instalado:
+Clonar el repositorio
 
-Python 3.x
+git clone https://github.com/emanuelgm1998/build-a-data-graph-explorer.git  
 
-Bibliotecas necesarias:
 
-pandas
+Abrir el archivo HTML en tu navegador
+Navega a la carpeta del proyecto y abre el archivo index.html en tu navegador.
 
-numpy
+Cargar un archivo CSV
 
-matplotlib
+Puedes cargar un archivo CSV desde tu computadora usando el botón de carga o proporcionando una URL.
 
-requests
+La herramienta leerá el archivo y generará gráficos interactivos.
 
-ipywidgets
+Explorar los gráficos
 
-Puedes instalar las dependencias con:
+Interactúa con los gráficos para ver los datos desde diferentes perspectivas.
 
-bash
-pip install pandas numpy matplotlib requests ipywidgets
-⚙️ Instalación
-Clona el repositorio:
+Realiza análisis básicos de los datos a través de las funcionalidades de la herramienta.
 
-bash
-git clone https://github.com/Emanuelgm777/Build-a-Data-Graph-Explorer.git
-Accede al directorio del proyecto:
+Instalación
 
-bash
-cd Build-a-Data-Graph-Explorer
-Ejecuta el script principal en un entorno Jupyter Notebook o compatible con widgets.
+No se requiere instalación adicional. Solo necesitas un navegador para ejecutar el proyecto. Si deseas modificar el código, simplemente abre el archivo index.html en tu editor de texto preferido y comienza a trabajar en el proyecto.
 
-🧪 Ejemplo de uso
-python
-from data_graph_explorer import launch_explorer
+Contribuciones
 
-launch_explorer()
-Esto abrirá una interfaz interactiva donde podrás cargar tus datos y comenzar a explorarlos visualmente.
+Si deseas contribuir al proyecto, sigue estos pasos:
 
-📄 Licencia
-Este proyecto está bajo la licencia MIT. Puedes usarlo, modificarlo y distribuirlo libremente.
+Haz un fork del repositorio.
+
+Crea una rama para tu nueva funcionalidad o corrección de errores (git checkout -b nueva-funcionalidad).
+
+Haz tus cambios y realiza un commit (git commit -am 'Añadir nueva funcionalidad').
+
+Push a tu rama (git push origin nueva-funcionalidad).
+
+Abre una pull request con una descripción clara de lo que has modificado.
+
+Licencia
+
+Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
