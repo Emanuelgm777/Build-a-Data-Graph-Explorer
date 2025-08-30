@@ -1,57 +1,58 @@
 Build-a-Data-Graph-Explorer
 Descripción
 
-Este proyecto tiene como objetivo crear una herramienta interactiva que permite explorar y visualizar datos en forma de gráficos. La calculadora toma un archivo CSV como entrada y permite al usuario explorar los datos a través de gráficos de barras, líneas y dispersión. La aplicación está desarrollada en JavaScript con Pandas para el procesamiento de datos, y Chart.js o D3.js para la visualización de los gráficos.
+Build-a-Data-Graph-Explorer es una herramienta interactiva diseñada para explorar, analizar y visualizar datos en archivos CSV mediante gráficos dinámicos. Este proyecto permite a los usuarios cargar un archivo CSV y visualizar los datos de manera visual mediante gráficos interactivos como barras, líneas y dispersión. La aplicación está desarrollada en JavaScript y utiliza bibliotecas como Chart.js o D3.js para la visualización de datos, y FileReader API para la carga de archivos.
 
 Características
 
-Subida de archivos CSV: Los usuarios pueden cargar archivos CSV desde su computadora o a través de una URL.
+Carga de Archivos CSV: Los usuarios pueden cargar archivos CSV desde su computadora o desde una URL proporcionada.
 
-Visualización de Datos: La herramienta genera gráficos de diferentes tipos (barras, líneas, dispersión) para visualizar los datos contenidos en el archivo CSV.
+Visualización Interactiva de Datos: Los gráficos generados incluyen gráficos de barras, líneas y dispersión que permiten explorar los datos de manera visual y dinámica.
 
-Interactividad: Los gráficos permiten interacción, como desplazamiento y zoom, para explorar los datos más a fondo.
+Análisis de Datos: La herramienta permite realizar análisis básicos, como la visualización de promedios, desviación estándar y otros cálculos estadísticos, directamente sobre los datos cargados.
 
-Análisis básico: Además de visualizar los datos, la herramienta permite realizar cálculos como la media, desviación estándar y otros análisis estadísticos básicos en los datos cargados.
+Interactividad en Gráficos: Los gráficos permiten a los usuarios hacer zoom, desplazarse y explorar diferentes secciones de los datos de manera interactiva.
+
+Soporte para múltiples gráficos: Los usuarios pueden cargar y comparar diferentes conjuntos de datos en un solo gráfico para un análisis más detallado.
 
 Tecnologías utilizadas
 
-HTML: Para la estructura de la página web y la disposición de los formularios interactivos.
+HTML: Para la estructura básica de la página web y la disposición de los formularios interactivos.
 
 CSS: Para el diseño visual y la estilización de la interfaz de usuario.
 
-JavaScript: Para la lógica de procesamiento de datos y generación de gráficos interactivos.
+JavaScript: Para la lógica de procesamiento de datos, carga de archivos y generación de gráficos interactivos.
 
-Chart.js o D3.js: Para la creación de los gráficos dinámicos.
+Chart.js / D3.js: Bibliotecas de JavaScript para la creación de gráficos interactivos y visualización de datos.
 
-Pandas (opcional para uso en Python): Para el análisis de los datos (si deseas integrar procesamiento avanzado de datos).
-
-FileReader API: Para cargar archivos CSV localmente.
+FileReader API: Para cargar y leer archivos CSV de manera dinámica en el navegador.
 
 Cómo usar el proyecto
 
 Clonar el repositorio
+Si deseas clonar este proyecto, usa el siguiente comando:
 
 git clone https://github.com/emanuelgm1998/build-a-data-graph-explorer.git  
 
 
 Abrir el archivo HTML en tu navegador
-Navega a la carpeta del proyecto y abre el archivo index.html en tu navegador.
+Navega a la carpeta del proyecto y abre el archivo index.html en tu navegador de preferencia.
 
 Cargar un archivo CSV
 
-Puedes cargar un archivo CSV desde tu computadora usando el botón de carga o proporcionando una URL.
+Puedes cargar un archivo CSV desde tu computadora o ingresar una URL que apunte a un archivo CSV en línea.
 
-La herramienta leerá el archivo y generará gráficos interactivos.
+La aplicación procesará el archivo y generará gráficos de acuerdo con los datos proporcionados.
 
 Explorar los gráficos
 
-Interactúa con los gráficos para ver los datos desde diferentes perspectivas.
+Los gráficos generados permiten interacción, como el zoom y desplazamiento, para explorar diferentes secciones de los datos.
 
-Realiza análisis básicos de los datos a través de las funcionalidades de la herramienta.
+Puedes realizar análisis básicos y visualizar datos clave mediante la herramienta de gráficos.
 
 Instalación
 
-No se requiere instalación adicional. Solo necesitas un navegador para ejecutar el proyecto. Si deseas modificar el código, simplemente abre el archivo index.html en tu editor de texto preferido y comienza a trabajar en el proyecto.
+No se requiere instalación adicional. Solo necesitas un navegador moderno para ejecutar el proyecto. Si deseas modificar el código, simplemente abre el archivo index.html en tu editor de texto preferido y realiza las modificaciones necesarias.
 
 Contribuciones
 
@@ -59,14 +60,14 @@ Si deseas contribuir al proyecto, sigue estos pasos:
 
 Haz un fork del repositorio.
 
-Crea una rama para tu nueva funcionalidad o corrección de errores (git checkout -b nueva-funcionalidad).
+Crea una nueva rama para tu funcionalidad o corrección de errores (git checkout -b nueva-funcionalidad).
 
-Haz tus cambios y realiza un commit (git commit -am 'Añadir nueva funcionalidad').
+Realiza los cambios y haz un commit (git commit -am 'Añadir nueva funcionalidad').
 
 Push a tu rama (git push origin nueva-funcionalidad).
 
-Abre una pull request con una descripción clara de lo que has modificado.
+Abre una pull request detallando los cambios realizados.
 
 Licencia
 
-Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
+Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más detalles.
